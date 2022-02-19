@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "dec",
+  "main": "12",
+  "scripts": {
+    "start": "cross-env PORT=5000 node index.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "daniil k",
+  "license": "ISC",
+  "dependencies": {
+    "cross": "^1.0.0",
+    "env": "^0.0.2",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
+}
